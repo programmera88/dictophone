@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.recorder-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.controls button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#recordBtn { background-color: #e74c3c; color: white; }
+#recordBtn:disabled { background-color: #95a5a6; }
+
+#stopBtn { background-color: #34495e; color: white; }
+#stopBtn:disabled { background-color: #bdc3c7; }
+
+.status {
+    margin: 15px 0;
+    font-style: italic;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 15px;
+}
